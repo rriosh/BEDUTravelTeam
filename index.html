@@ -11,10 +11,10 @@
 </head>
 <body>
 	<div class="container">
+		<div class="text-center">
+			<h2>INFORMACIÓN DE TU CUENTA EN BEDU-TRAVELS</h2>
+		</div>
 		<div class="row">
-			<div class="text-center">
-				<h2>INFORMACIÓN DE TU CUENTA EN BEDU-TRAVELS</h2>
-			</div>
 			<div class="col-md-8">
 				<form>
 					<div class="form-group">
@@ -27,21 +27,26 @@
 					</div>
 					<div class="form-group">
 						<label for="exampleInputBirthday">Cumpleaños</label>
-						<input type="date" class="form-control" id="exampleInputBirthday" placeholder="Enter Your Birthdate">
+						<input type="date" class="form-control" id="exampleInputBirthday" placeholder="DD/MM/YYYY" name="jqueryDate">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputNationality">Nacionalidad</label>
 						<input type="text" class="form-control" id="exampleInputNationality" placeholder="Enter Your Nationality">
 					</div>
-					<button type="submit" class="btn btn-success">Guardar Información</button>
+					<div class="text-center">
+						<button type="submit" class="btn btn-success">Guardar Información</button>
+					</div>
 				</form>
 				<a href="#">cambiar contraseña</a>
 			</div>
 			<div class="col-md-4">
 				<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" width="100%" height="300px">
-				<button type="submit" class="btn btn-success">Cambiar foto de perfil</button>
+				<button type="submit" class="btn btn-sm btn-success" style="width: 100%; margin-top: 10px;">Cambiar foto de perfil</button>
 			</div>
 		</div>
 	</div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
 </html>
