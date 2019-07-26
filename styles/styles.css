@@ -1,8 +1,25 @@
+
+.Samuel_style{
+text-underline-position: black;
+ }
 .DENISSE_style {
     color: blueviolet;
     text-decoration: underline overline;
+
 }
 .papa{
   color: rgb(20, 92, 121);
   background-color: chartreuse;
+}
+
+.pepe {
+color: white;
+background: #5DA5C4;
+border-color: black;
+padding: 5px;
+}
+
+.samuel_style{
+	color: green;
+	text-decoration: underline overline;
 }
