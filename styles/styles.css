@@ -17,3 +17,8 @@ background: #5DA5C4;
 border-color: black;
 padding: 5px;
 }
+
+.samuel_style{
+	color: green;
+	text-decoration: underline overline;
+}
