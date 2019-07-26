@@ -5,3 +5,8 @@
 .papa{
   color: rgb(20, 92, 121);
 }
+
+.samuel_style{
+	color: green;
+	text-decoration: underline overline;
+}
