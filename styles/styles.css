@@ -11,6 +11,13 @@ text-underline-position: black;
   color: rgb(20, 92, 121);
 }
 
+.pepe {
+color: white;
+background: #5DA5C4;
+border-color: black;
+padding: 5px;
+}
+
 .samuel_style{
 	color: green;
 	text-decoration: underline overline;
