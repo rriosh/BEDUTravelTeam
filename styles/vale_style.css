@@ -4,3 +4,7 @@
     border: 1px solid #8A2387;    
 
 }
+.valbutton:hover{
+    color: white;
+    background-color: #8A2387;
+}
